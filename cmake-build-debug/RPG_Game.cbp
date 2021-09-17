@@ -113,6 +113,12 @@
 		<Unit filename="F:/Clionprojectsnew/RPG_Game/Fight.h">
 			<Option target="RPG_Game"/>
 		</Unit>
+		<Unit filename="F:/Clionprojectsnew/RPG_Game/Game.cpp">
+			<Option target="RPG_Game"/>
+		</Unit>
+		<Unit filename="F:/Clionprojectsnew/RPG_Game/Game.h">
+			<Option target="RPG_Game"/>
+		</Unit>
 		<Unit filename="F:/Clionprojectsnew/RPG_Game/Item.cpp">
 			<Option target="RPG_Game"/>
 		</Unit>
