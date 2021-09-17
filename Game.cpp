@@ -15,8 +15,8 @@ Game::Game(){
 void Game::mainMenu(){
 
     cout<<"Main Menu"<<endl;
-    cout<<"1. Start adventure"<<endl;
-    cout<<"0. Exit"<<endl<<endl;
+    cout<<"1. Start game"<<endl;
+    cout<<"0. Exit game"<<endl<<endl;
 
     cout<<"Choose option: ";
     cin>>option; ++countOption;
@@ -37,7 +37,7 @@ void Game::startMenu(){
     while (option !=0) {
         cout << "Play Menu" << endl;
         cout << "1. Explore" << endl;
-        cout << "2. Show stats" << endl;
+        cout << "2. Show statistics" << endl;
         cout << "0. Go back" << endl << endl;
 
         cout << "Choose option: ";
@@ -50,7 +50,7 @@ void Game::startMenu(){
                 Fight fight;
                 fight.fightEventStart(character);
 
-                Item item("Wooden Sword", 1);
+                Item item("Skyward Blade", 1);
                 character.gainExp(15);
                 character.receiveItem(item);
                 break;
@@ -60,7 +60,7 @@ void Game::startMenu(){
                 break;
             }
             default: {
-                Item item("Secret Sword", 10);
+                Item item("Freedom Sworn", 10);
                 character.gainExp(15);
                 character.receiveItem(item);
                 break;
